@@ -1,7 +1,15 @@
-export default function App() {
+import "./App.css"
+import Navbar from "./components/Navbar";
+import { useState } from "react";
+
+
+ function App() {
+  const [mode, setMode] = useState("light");
+
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="h-screen transition bg-zinc-300">
+      <Navbar mode={mode} setMode={setMode}/>
+    </div>
   )
 }
+export default App;
