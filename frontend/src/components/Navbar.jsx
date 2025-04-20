@@ -2,8 +2,7 @@ import React from "react";
 import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
-import logoDark from "../assets/logo-dark.png";
-import logoWhite from "../assets/logo.png";
+import WaeLogo from "../assets/wae.avif";
 
 const Navbar = ({ mode, setMode }) => {
   const handlerTheme = () => {
@@ -17,7 +16,7 @@ const Navbar = ({ mode, setMode }) => {
       }`}
     >
       <img
-        src={mode == "light" ? logoDark : logoWhite}
+        src={mode == "light" ? WaeLogo : WaeLogo}
         alt="logo"
         className="w-[200px] cursor-pointer "
       />

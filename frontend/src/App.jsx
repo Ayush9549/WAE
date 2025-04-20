@@ -4,9 +4,9 @@ import { useState } from "react";
 import HeroSection from "./components/heroSection";
 import FeaturesSection from "./components/FeaturesSection";
 import VideoCardSection from "./components/VideoCardSection";
+import FeaturedCourses from "./components/FeaturedCourses";
 
-
- function App() {
+function App() {
   const [mode, setMode] = useState("light");
 
   return (
@@ -15,6 +15,7 @@ import VideoCardSection from "./components/VideoCardSection";
       <HeroSection />
       <FeaturesSection />
       <VideoCardSection />
+      <FeaturedCourses />
     </div>
   );
 }
