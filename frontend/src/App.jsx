@@ -6,6 +6,9 @@ import FeaturesSection from "./components/FeaturesSection";
 import Appointment from "./components/Appointment";
 import VideoCardSection from "./components/VideoCardSection";
 import About from "./components/about";
+import FeaturedCourses from "./components/FeaturedCourses";
+import Events from "./components/Events";
+import Footer from "./components/Footer";
 
 
  function App() {
@@ -19,6 +22,9 @@ import About from "./components/about";
       <Appointment />
       <VideoCardSection />
       <About />
+      <FeaturedCourses />
+      <Events />
+      <Footer />
     </div>
   );
 }

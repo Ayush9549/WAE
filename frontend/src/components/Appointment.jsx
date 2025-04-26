@@ -4,7 +4,7 @@ import img2 from '../assets/img-2.png';
 
 const Appointment = () => {
   return (
-    <div className="max-w-[1400px] mx-auto px-4 py-16" style={{height: '755px'}}>
+    <div className="max-w-[1150px] mx-auto px-4 py-16" style={{height: '755px'}}>
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left Content Section */}
         <div className="flex-1 space-y-6">

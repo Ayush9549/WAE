@@ -13,7 +13,7 @@ const courses = [
 
 const FeaturedCourses = () => {
   return (
-    <div className="py-10 px-4 max-w-7xl mx-auto">
+    <div className="py-10 max-w-[1150px] px-4 max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-6">Featured Courses</h2>
       <p className="text-center text-muted-foreground mb-10">
         It is a long established fact that a reader will be distracted by the readable content.

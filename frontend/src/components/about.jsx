@@ -3,7 +3,7 @@ import aboutImg from '../assets/img-6.png';
 
 const About = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container max-w-[1150px] mx-auto px-4 py-16">
       <h2 className="text-4xl font-bold mb-12">About</h2>
       
       <div className="flex flex-col md:flex-row items-center gap-12">
